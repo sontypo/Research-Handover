@@ -1,0 +1,31 @@
+# Parameters for the first real-robot runs (stage 3). Deliberately conservative:
+# raise the limits only after the checklist in docs/REAL_ROBOT_CHECKLIST.md.
+/**:
+  ros__parameters:
+    # navigation
+    goal_x: 5.0              # start with a short, clear path
+    goal_y: 0.0
+    rate: 20.0
+    goal_tolerance: 0.4
+    time_limit: 60.0
+    robot_radius: 0.40       # measure your robot, add a margin
+    max_v: 0.5
+    min_v: 0.0
+    max_w: 0.8
+    max_acc: 0.8
+    max_alpha: 1.5
+    estop_distance: 0.6      # from the LiDAR, around the travel direction
+    estop_half_angle_deg: 60.0
+    yaw_rate_scale: 1.0      # calibrate: commanded / measured yaw rate of your base
+    pose_timeout: 0.5
+    people_timeout: 0.5
+    # people adapter
+    input_type: "pose_array" # or "detection3d"
+    input_topic: "/detections"
+    target_frame: "odom"
+    max_height: 2.0
+    min_height: 0.2
+    max_width: 1.2
+    # logger
+    output_dir: "~/handover_trials/real"
+    comfort_distance: 1.0

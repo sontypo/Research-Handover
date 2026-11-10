@@ -1,0 +1,6 @@
+# Reinforcement learning (stage1_python_sim/rl). torch is installed by stable-baselines3;
+# for a CPU-only machine you may first run:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+gymnasium>=0.29
+stable-baselines3>=2.3
+tensorboard>=2.10

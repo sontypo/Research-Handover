@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>crowd_gazebo</name>
+  <version>0.1.0</version>
+  <description>Stage 2 of the NRSL social-navigation handover: Gazebo Classic crowd worlds generated from the socialnav_core scenarios, and a ground-truth people tracker.</description>
+  <maintainer email="nrsl@example.com">NRSL</maintainer>
+  <license>MIT</license>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_plugins</exec_depend>
+  <exec_depend>gazebo_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>crowd_nav_bridge</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

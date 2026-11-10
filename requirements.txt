@@ -1,0 +1,6 @@
+# Stage 1 (2-D simulation) and the core library. numpy < 2 keeps ROS 2 Humble's rclpy working.
+numpy>=1.21,<2
+matplotlib>=3.5
+pillow>=8
+pytest>=6
+python-pptx>=0.6   # only for `make slides`

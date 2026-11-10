@@ -1,0 +1,2 @@
+# MuJoCo runner (stage2_mujoco)
+mujoco>=3.1

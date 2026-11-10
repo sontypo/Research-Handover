@@ -1,0 +1,2 @@
+# Applied to every pip install of the handover: ROS 2 Humble needs numpy 1.x
+numpy<2

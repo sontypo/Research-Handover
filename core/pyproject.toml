@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "socialnav_core"
+version = "0.1.0"
+description = "Minimal crowd-navigation toolkit for the NRSL handover (Social Force crowd, baselines, metrics, 2-D viz)"
+requires-python = ">=3.8"
+dependencies = ["numpy>=1.21", "matplotlib>=3.5", "pillow>=8"]
+
+[tool.setuptools.packages.find]
+include = ["socialnav_core*"]

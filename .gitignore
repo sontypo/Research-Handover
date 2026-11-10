@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+ros_ws/build/
+ros_ws/install/
+ros_ws/log/
+stage1_python_sim/outputs/logs/
+.venv/
+.deps/
+stage1_python_sim/rl/runs/tensorboard/
+stage1_python_sim/rl/runs/*/play/
+stage2_mujoco/outputs/

@@ -1,0 +1,21 @@
+# Parameters for Gazebo (stage 2). Same limits as the 2-D simulator.
+/**:
+  ros__parameters:
+    goal_x: 11.0
+    goal_y: 0.0
+    rate: 20.0
+    goal_tolerance: 0.4
+    time_limit: 60.0
+    robot_radius: 0.35
+    max_v: 1.0
+    min_v: 0.0
+    max_w: 1.2
+    max_acc: 1.5
+    max_alpha: 2.5
+    estop_distance: 0.4
+    estop_half_angle_deg: 60.0
+    yaw_rate_scale: 1.0
+    pose_timeout: 0.5
+    people_timeout: 1.0
+    output_dir: "~/handover_trials/gazebo"
+    comfort_distance: 1.0

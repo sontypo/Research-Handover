@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>crowd_nav_bridge</name>
+  <version>0.1.0</version>
+  <description>Stage 3 of the NRSL social-navigation handover: runs socialnav_core controllers on a ROS 2 robot (Gazebo or real), with safety layers, a people-tracker adapter, and a trial logger.</description>
+  <maintainer email="nrsl@example.com">NRSL</maintainer>
+  <license>MIT</license>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>vision_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>
