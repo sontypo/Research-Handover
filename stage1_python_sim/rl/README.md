@@ -1,8 +1,7 @@
 # Reinforcement learning with stable-baselines3
 
-A minimal, working pipeline: train → evaluate → export → run in 2-D, MuJoCo, Gazebo
-or on the robot. It is a generic starting point (MLP + PPO + a standard reward), meant
-to be replaced by your own design.
+A working pipeline: train → evaluate → export → run in 2-D, MuJoCo, Gazebo or on the
+robot, with an MLP, PPO and a standard reward as the starting point.
 
 | Script | Does |
 |---|---|

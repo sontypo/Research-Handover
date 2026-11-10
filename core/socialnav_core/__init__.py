@@ -1,9 +1,8 @@
-"""socialnav_core: a minimal, self-contained toolkit for crowd-navigation research.
+"""socialnav_core: a self-contained toolkit for crowd-navigation research.
 
-This package is the shared core of the NRSL social-navigation handover. It is a
-teaching baseline written from scratch: a Social Force crowd, a unicycle robot,
-simple reference controllers, a constant-velocity predictor, standard metrics,
-and 2-D visualisation. It is not the method of the original thesis.
+This package is the shared core of the NRSL social-navigation handover: a Social
+Force crowd, a unicycle robot, simple reference controllers, a constant-velocity
+predictor, standard metrics, and 2-D visualisation.
 
 Modules
 -------
@@ -15,7 +14,7 @@ controllers reference robot controllers and the plug-in interface for yours
 observation fixed-size observation vector for learning-based policies
 metrics     success / collision / timeout and comfort-related measures
 sim         episode loop that ties everything together
-env         minimal reset/step environment wrapper for reinforcement learning
+env         reset/step environment wrapper for reinforcement learning
 viz         static plots and GIF animations of episodes
 """
 

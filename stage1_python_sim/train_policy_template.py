@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Template for training your own learned policy (exercise, intentionally incomplete).
+"""Template for writing your own training loop for a learned policy.
 
-This file shows *where* a learning-based controller plugs in, not *how* to build
-a good one. It runs a random policy in ``CrowdNavEnv`` so you can check the
-interface, then stops at the points you are expected to fill in:
+This file shows where a learning-based controller plugs in. It runs a random
+policy in ``CrowdNavEnv`` so you can check the interface; a complete PPO example
+is in ``rl/train_sb3.py``. The usual steps:
 
   1. Choose an RL algorithm (e.g. PPO from stable-baselines3, CleanRL, or RSL-RL
      with a GPU-parallel simulator) and wrap ``CrowdNavEnv`` for it.
@@ -39,8 +39,8 @@ def rollout_random(episodes=5):
 
 
 def train():
-    # TODO(successor): replace with your training loop.
-    raise NotImplementedError("Training is the research task of the next student.")
+    # TODO: replace with your training loop (see rl/train_sb3.py for a PPO example).
+    raise NotImplementedError("Write your training loop here.")
 
 
 if __name__ == "__main__":

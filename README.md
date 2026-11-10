@@ -9,12 +9,6 @@ pedestrians, with one shared controller library and one command per step.
 **New here? Start with `docs/GETTING_STARTED.md`** — it sets everything up on your own
 Ubuntu 22.04 machine.
 
-> **Scope.** This kit is an *idea-level, minimal* handover written from scratch. It
-> contains baselines (Social Force, constant-velocity prediction, a generic PPO
-> policy), tools and interfaces. It does **not** contain the forecaster, the learned policy, the rewards,
-> the training code, the checkpoints or the hardware stack of the original thesis.
-> Designing and training your own methods is your research.
-
 ## Quick start
 
 ```bash
@@ -91,9 +85,9 @@ changes. Learned policies are exported once (`policy.pt` / `policy.npz` +
   `docs/REAL_ROBOT_CHECKLIST.md`: an operator with an emergency stop, the base driver's
   command timeout enabled, and lab approval for experiments with people.
 
-## Where the original research is described
+## Background reading
 
 The ideas behind this kit are discussed in the MSc thesis *Safe Navigation for
 Robot-Crowd Interaction via Learning-Based Approaches* (H.-S. Nguyen, NCKU) and in the
 public preprint *Social Graph Mamba* (arXiv:2608.21411). Read them for the motivation
-and the evaluation methodology; the implementations are not part of this handover.
+and the evaluation methodology.

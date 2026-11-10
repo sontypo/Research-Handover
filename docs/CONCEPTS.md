@@ -1,4 +1,4 @@
-# Concepts (minimal)
+# Concepts
 
 This page gives the ideas you need to start. It is deliberately short: follow the
 references for depth.
@@ -39,7 +39,7 @@ aside. Use `--robot-visible` only to see the difference.
 | Predict, then plan | forecast where people will be, then avoid the forecasts | `PredictiveSocialForce` + `ConstantVelocityPredictor` |
 | Learned | learn the policy from experience (RL) and/or demonstrations (IL) | `LearnedPolicy` slot + `env.CrowdNavEnv` |
 
-Ideas worth exploring, at the level of directions only:
+Ideas worth exploring:
 
 * **Better forecasts.** Replace constant velocity by a learned, multimodal forecaster that
   models interactions between people, and keep it fast enough for the robot's control

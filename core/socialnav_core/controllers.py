@@ -8,8 +8,8 @@ PredictiveSocialForce  reacts to where people *will be*, using any ``Predictor``
                        (prediction-then-planning; CV prediction by default)
 
 ``LearnedPolicy`` is the slot for a learned controller (e.g. a policy trained with
-reinforcement learning in ``env.CrowdNavEnv`` and saved as a .pt model). It is left
-empty on purpose: designing and training it is the research task.
+reinforcement learning in ``env.CrowdNavEnv`` and saved as a .pt model); give it the
+model with ``LearnedPolicy(model=...)``.
 """
 from __future__ import annotations
 

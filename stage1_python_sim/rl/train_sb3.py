@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Train a crowd-navigation policy with stable-baselines3 (PPO by default).
 
-A minimal, generic setup: an MLP on the observation vector of socialnav_core
+The setup: an MLP on the observation vector of socialnav_core
 (goal, k nearest people, LiDAR-like rays), the baseline reward of
 ``socialnav_core.env``, and a mixture of scenarios. During training the policy is
 evaluated on the four benchmark scenarios; the best model is kept and exported

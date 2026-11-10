@@ -1,4 +1,4 @@
-"""Minimal reset/step environment for reinforcement learning.
+"""Reset/step environment for reinforcement learning.
 
 ``CrowdNavEnv`` has no dependency on gym/gymnasium (the Gymnasium wrapper for
 stable-baselines3 is in ``gym_env.py``). The reward is a standard, generic one:
